@@ -1,0 +1,160 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #222;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #bbb;
+}
+
+/* Main */
+main {
+  margin: 20px;
+}
+
+h1, h2, h3 {
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #ddd;
+  margin-bottom: 20px;
+}
+
+/* Form */
+form {
+  background-color: #333;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+legend {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+textarea {
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  height: 150px;
+  padding: 10px;
+  resize: vertical;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #222;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  nav {
+    margin-top: 20px;
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 0 10px;
+  }
+
+  main {
+    margin: 10px;
+  }
+}
