@@ -2,6 +2,8 @@
 
 Flask Blog is a web application built using the Flask micro-framework. It allows users to create an account, log in, create posts and add comments to other users' posts.
 
+https://youtu.be/d21bEZEU1Fo
+
 ## Usage
 
 To use this project, follow these steps:
